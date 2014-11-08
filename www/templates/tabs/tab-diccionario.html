@@ -1,0 +1,17 @@
+<ion-view title="">
+
+	<div class="bar bar-header bar-dark">
+		<h1 class="title ng-binding title-left"><img class="headerlogo" src="img/logo.png" alt="logo">Diccionario</h1>
+  		<a href="#/" class="button button-clear icon ion-close"></a>
+	</div>
+
+  <ion-content class="mtop">
+    <ion-list>
+      <ion-item class="item-avatar" ng-repeat="diccionario in diccionarios" type="item-text-wrap" href="#/tab/diccionario/{{diccionario.id}}">
+        <img src="img/ionic.png">
+        <h2>{{diccionario.name}}</h2>
+        <p>{{diccionario.meaning}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

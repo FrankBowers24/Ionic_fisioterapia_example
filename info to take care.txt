@@ -1,0 +1,74 @@
++ Vistas
+
+	+ Bienvenido (welcome)
+		- Logo o imagen de portada
+		- botón para inicio de sesión
+		- botón para alistarse
+		- botón para entrar como invitado (guest)
+
+	+ Inicio de sesión (Sign in)
+		+ cabecera (header)
+			- título en el centro (Inicio de sesión)
+		- campo de texto para email
+		- campo de texto para contraseña (password)
+		- botón para confirmar (submit)
+		- botón para borrar (reset)
+		- enlace (link) para ir a vista de registro
+
+	+ Registrarse (Sign up) 
+		+ cabecera (header)
+			- título en el centro (Registrarse)
+		- campo de texto para nombre
+		- campo de texto para apellidos
+		- campo de texto para email
+		- campo de texto para contraseña (password)
+		- campo de texto para confirmar contraseña (password)
+		- botón para procesar (submit)
+		- botón para borrar (reset)
+		- enlace (link) para ir a vista de inicio de sesión
+
+ ===============================================================================
+ ===== Las siguientes vistas son parte de la actividad principal de la app =====
+
+	+ Diccionario (Listado de palabras)
+		+ cabecera (header)
+			- título en el centro (Registrarse)
+			- close button a la derecha (para cierre de sesión)
+		+ Lista de palabras con la siguiente estructura
+			- buscador
+			- palabras listadas
+			- diviciones dentro de la lista que muestren la letra del alfabeto a la cual corresponden las palabras
+
+	+ Detalle (de la palabra seleccionada)
+		+ cabecera (header)
+			- back button a la izquierda
+			- título en el centro (Registrarse)
+			- close button a la derecha (para cierre de sesión)
+		+ Contenido para la palabra seleccionada
+			- texto
+			- imágenes
+
+	+ Videos
+		+ cabecera (header)
+			- título en el centro (Registrarse)
+			- close button a la derecha (para cierre de sesión)
+		+ Lista de videos con la siguiente estructura
+			- buscador
+			+ videos listados con:
+				- imagen relacionada al video a la izquierda
+				- título del video a la derecha de la imágen
+
+	+ Contáctame (o Contácto)
+		+ cabecera (header)
+			- título en el centro (Registrarse)
+			- close button a la derecha (para cierre de sesión)
+		+ Información de Contacto
+			- Nombre Completo
+			+ Números telefónicos
+				- oficina
+				- celular
+				- etc...
+			- Emails
+			- Dirección física
+			- ETC...
+
